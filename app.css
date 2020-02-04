@@ -1,0 +1,125 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body {
+    background: black;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 5rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    font-size: 5rem;
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(40, 40, 40);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+marquee
+{
+	color: white;
+	font-size: 40px;
+	font-family: 'Press Start 2P', cursive;
+}
+u
+{
+	font-size: 60px;
+}
+ul
+{
+	color: white;
+}
+.card
+{
+	display: inline-flex;
+	background: black;
+	color: white;
+}
+
+.gradientBg
+{
+	color: #D1913C;  /* fallback for old browsers */
+	color: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+	color: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+i
+{
+	font-size: 80px;
+}
+#best
+{
+	font-size: 25px;
+}
+#eq
+{
+	font size: 40px;
+	font-weight: 400;
+}
+
+#contactBar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+#contactBar .contact {
+    color: white;
+}
+
+#contactBar .contact:hover {
+    color: #EA1C2C;
+}
+
